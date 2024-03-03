@@ -40,6 +40,7 @@ export default function App() {
   let routers =createBrowserRouter([
     {path:'' , element:<Layout/> , children : [
       {index:true , element:<ProtectedRoute> <Home/>  </ProtectedRoute>  },
+      {path:'Ecommerce-website-Freshcart/' , element:<ProtectedRoute> <Login/>  </ProtectedRoute> },
       {path:'cart' , element:<ProtectedRoute> <Cart/>  </ProtectedRoute> },
       {path:'brands' , element:<ProtectedRoute> <Brand/>  </ProtectedRoute> },
       {path:'allorders' , element:<ProtectedRoute> <Home/>  </ProtectedRoute> },
